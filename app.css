@@ -1,0 +1,40 @@
+input {
+    margin-top: 20 px;
+    padding: 12px 20px;
+}
+
+.inputBox {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+form {
+    text-align: left;
+}
+
+.formClass, h1 {
+    margin: 40px;
+}
+
+input[type=submit] {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.hidden {
+    display: none;
+}
+
+ul {
+    list-style: none;
+}
+

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+
+    <h1>Search for National Parks Close to You</h1>
+
+    <form class="formClass">
+        <div class="inputBox">
+            <label for="npsList">Enter state to generate list of National Parks</label><br>
+            <br><input type="text" id="npsList" name="npsList" placeholder="State name (i.e. California)" onfocus="this.placeholder = ''" onblur="this.placeholder = 'State name (i.e. California)'"><br>
+            <!--<br><label for="max-results">Maximum results to return</label><br>
+            <br><input type="number" name="max-results" id="js-max-results" value="10"><br>-->
+        </div>
+        <input type="submit" id="npsList" value="Submit">
+    </form>
+
+    <main>
+        <ul class="results hidden">
+            <div class="results-list">
+            </div>
+        </ul>
+    </main>
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.js" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>
