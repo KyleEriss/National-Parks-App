@@ -8,16 +8,16 @@
 </head>
 <body>
 
-    <h1>Search for National Parks Close to You</h1>
+    <h1>Search for National Parks in Your State</h1>
 
     <form class="formClass">
-        <div class="inputBox">
+        <section class="inputBox">
             <label for="npsList">Enter state to generate list of National Parks</label><br>
-            <br><input type="text" id="npsList" name="npsList" placeholder="State name (i.e. California)" onfocus="this.placeholder = ''" onblur="this.placeholder = 'State name (i.e. California)'"><br>
-            <!--<br><label for="max-results">Maximum results to return</label><br>
-            <br><input type="number" name="max-results" id="js-max-results" value="10"><br>-->
-        </div>
-        <input type="submit" id="npsList" value="Submit">
+            <br><input type="text" id="npsList" name="npsList" placeholder="Enter state abbr (i.e. CA)" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter state abbr (i.e. CA)'"><br>
+            <br><label for="max-results">Maximum results to return</label><br>
+            <br><input type="number" name="max-results" id="js-max-results" value="10"></input><br>
+        </section>
+        <br><input type="submit" id="npsList" value="Submit">
     </form>
 
     <main>
